@@ -1,0 +1,30 @@
+{
+  "name": "pleer-cli",
+  "version": "0.0.0",
+  "description": "pleer.com for command line.",
+  "main": "index.js",
+  "bin": {
+    "pleer": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micaelsouza/pleer-cli.git"
+  },
+  "keywords": [
+    "prostopleer",
+    "pleer",
+    "mp3",
+    "song",
+    "download",
+    "cli"
+  ],
+  "author": {
+    "name": "Micael Souza"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "jsonfile": "^2.2.2",
+    "pleer": "0.0.5"
+  }
+}
