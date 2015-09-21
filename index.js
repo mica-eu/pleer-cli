@@ -6,7 +6,7 @@ var //dependencias
   http     = require('http'),
   fs       = require('fs');
 
-var listFile = 'list.json';
+var listFile = __dirname + '/list.json';
 var songsDir = process.env.HOME + '/Music/';
 
 var program = require('commander');
